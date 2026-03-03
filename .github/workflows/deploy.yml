@@ -43,7 +43,7 @@ jobs:
           fi
 
       - name: Build
-        run: trunk build --release --dist dist --public-url /${{ github.event.repository.name }}/
+        run: trunk build --release --dist dist --public-url /
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
