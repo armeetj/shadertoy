@@ -23,5 +23,14 @@
 </head>
 <body>
     <canvas id="the_canvas_id"></canvas>
+    <script>
+        // Prevent browser default Tab behavior (focus change) but let the event
+        // propagate so eframe/egui on the canvas still receives the key event.
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "Tab") {
+                e.preventDefault();
+            }
+        }, true);
+    </script>
 </body>
 </html>
