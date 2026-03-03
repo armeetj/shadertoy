@@ -165,7 +165,19 @@ impl App {
             error: None,
             prev_code: String::new(),
         });
-        app.next_id = 1;
+        app.cells.push(Cell {
+            id: 1,
+            source: default_source(1),
+            error: None,
+            prev_code: String::new(),
+        });
+        app.cells.push(Cell {
+            id: 2,
+            source: default_source(2),
+            error: None,
+            prev_code: String::new(),
+        });
+        app.next_id = 3;
         app
     }
 
