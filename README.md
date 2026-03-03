@@ -1,4 +1,7 @@
-# glsl-nb
+# shadertoy
+
+<img width="553" height="586" alt="image" src="https://github.com/user-attachments/assets/07e7cb2d-3ea4-449c-93bb-6ecfe2b39735" />
+
 
 A browser-based GLSL shader notebook. Write fragment shaders in editable cells with live previews — like a notebook but for shaders.
 
